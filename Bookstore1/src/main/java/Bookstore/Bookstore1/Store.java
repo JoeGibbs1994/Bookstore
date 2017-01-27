@@ -15,7 +15,8 @@ public class Store{
 	protected String location;
 	
 	@Column (length = 50)
-	protected String dateOfBirth;
+	protected String Manager;
 	
 	@Column (length = 50)
-	protected String countryOfResidence;
+	protected String NumberOfFloors;
+}
